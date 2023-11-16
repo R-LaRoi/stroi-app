@@ -1,0 +1,6 @@
+.nav-items {
+  list-style: none;
+  display: flex;
+  gap: 18rem;
+  padding: 2rem;
+}
