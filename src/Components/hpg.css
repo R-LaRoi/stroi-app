@@ -1,0 +1,24 @@
+#video-hpg {
+  width: 100%;
+  margin: 0;
+}
+
+.media-h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  padding-top: 3rem;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

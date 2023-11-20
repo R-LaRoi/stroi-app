@@ -1,0 +1,9 @@
+import jmp from "./assets/jumpn.mp4";
+import atelier from "./assets/718.mp4";
+import tsc from "./assets/tsc.mp4";
+import vista from "./assets/vista.mp4";
+
+(data = { mediaSource: { jmp }, text: "JMPN" }),
+  { mediaSource: { atelier }, caption: "atelier 718" },
+  { mediaSource: { tsc }, caption: "tsc consultancy" },
+  { mediaSource: { vista }, caption: "vista" };
