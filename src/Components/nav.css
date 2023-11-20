@@ -4,19 +4,21 @@
   align-items: center;
   background-color: rgb(255, 255, 255);
   width: 100%;
-  transition: 0.4s ease;
+  transition: 4s ease;
   position: fixed;
   top: 0;
   bottom: auto;
   z-index: 99;
-  height: 90%;
 }
 
-#logo {
-  width: 35rem;
+#hero-vid {
+  display: block;
+  width: 100%;
+  margin: 0;
+  transition: 3s ease;
 }
-.nav-items + * {
-  margin-top: 100px;
+#logo {
+  width: 12rem;
 }
 
 .sm-nav {
@@ -42,12 +44,15 @@
 #links {
   list-style: none;
   flex-direction: row;
-  gap: 10rem;
-  padding: 0;
   display: flex;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 0.8rem;
   width: 100%;
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+  color: rgb(40, 40, 40);
+  height: 100px;
+  z-index: 1;
 }
 
 .row {
@@ -59,4 +64,10 @@
   text-decoration: none;
   color: black;
 }
-/* ____________________ */
+
+.nav-container {
+  width: 100%;
+  padding: 20px;
+  z-index: 1;
+  /* display: none; */
+}
