@@ -2,3 +2,15 @@ body,
 .container {
   margin: 0;
 }
+
+@font-face {
+  font-family: "Visby-Reg";
+  font-family: "Visby-Bold";
+  src: url("./Components/assets/VisbyRegular.ttf");
+  src: url("./Components/assets/VisbyBold.ttf");
+}
+
+@font-face {
+  font-family: "Visby-Reg";
+  src: url("./Components/assets/VisbyRegular.ttf");
+}
