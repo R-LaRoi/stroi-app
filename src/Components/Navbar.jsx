@@ -1,14 +1,14 @@
-import React {useState, useEffect} from 'react'
+import { useState, useEffect } from 'react';
 import './nav.css'
-import logo from './assets/lgstroi.png'
 
+import initial from './assets/ologo.svg'
 
 export default function Navbar () {
-  const [navSize, setnavSize] = useState("10rem");
+  const [navSize, setnavSize] = useState("1rem");
   const [navColor, setnavColor] = useState("white");
   
   const listenScrollEvent = () => {
-    window.scrollY > 10 ? setnavColor("#252734") : setnavColor("transparent");
+    window.scrollY > 10 ? setnavColor("white") : setnavColor("transparent");
     window.scrollY > 10 ? setnavSize("5rem") : setnavSize("10rem");
   };
   useEffect(() => {
@@ -19,25 +19,20 @@ export default function Navbar () {
   }, []);
   return(
 
-<section className='navbar'>
- <ul className='nav-links'   style={{
+<section className='navbar' id='navbar'>
+ <ul className='nav-links'  style={{
           backgroundColor: navColor,
           height: navSize,
-          transition: "all 1s"
+          transition: "all 1s",
         }}>
-<li>
-  <img src={logo}/>
+
+    <li>projects</li>
+    <li>
+  <img src={initial} className='logo'/>
   </li> 
-    
-          <li>Project</li>
-          <li>Connect </li>
+    <li>connect </li>
  </ul>
-
 </section>
-
-
-
-
   )
 
 

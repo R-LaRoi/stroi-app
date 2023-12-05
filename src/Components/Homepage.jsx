@@ -9,8 +9,8 @@ export default function Homepage () {
 
 return(
   <>
-   <div className='container'>
-  <video playsInline autoPlay muted loop id="video-hpg">
+   <div className='container' >
+  <video playsInline autoPlay muted loop id="video-hpg at-vid">
         <source
           src={atelier}
           type="video/mp4"
@@ -18,13 +18,16 @@ return(
       </video>
       <div className='media-h1'>
         atelier 718
+        <div className='sub-text'>Fresh out of Booklyn, New York Atelier 718 was founded by three friends committed to creating a brand that embodies their personal style. They have a story tp tell and they're excited to share it with you. 
+         </div>
       </div>
+
             <div className='caption'>
-Atelier 718
+
       </div>
 
 </div>
-   <div className='container'>
+   <div className='container' >
       <video playsInline autoPlay muted loop id="video-hpg">
         <source
           src={tsc}
@@ -33,10 +36,10 @@ Atelier 718
       </video>
       <div className='media-h1'>
      tsc
+      <div className='sub-text'>Trupti Samuel Consultancy, specializes in parental therapy and early childhood counseling. 
+         </div>
       </div>
-              <div className='caption'>
-tsc consultancy
-      </div>
+     
 </div>
       <video playsInline autoPlay muted loop id="video-hpg">
         <source
