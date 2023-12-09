@@ -5,10 +5,10 @@ import initial from './assets/ologo.svg'
 
 export default function Navbar () {
   const [navSize, setnavSize] = useState("1rem");
-  const [navColor, setnavColor] = useState("white");
+  const [navColor, setnavColor] = useState("transparent");
   
   const listenScrollEvent = () => {
-    window.scrollY > 10 ? setnavColor("white") : setnavColor("transparent");
+    window.scrollY > 10 ? setnavColor("transparent") : setnavColor("transparent");
     window.scrollY > 10 ? setnavSize("5rem") : setnavSize("10rem");
   };
   useEffect(() => {

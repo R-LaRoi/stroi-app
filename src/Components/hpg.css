@@ -1,30 +1,33 @@
-#video-hpg {
-  width: 100%;
-  margin: 0;
+#tsc {
+  margin-top: -30rem;
 }
 
 .media-h1 {
   position: absolute;
-  top: 60%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 3.5rem;
   font-family: "Visby-Bold";
   letter-spacing: 19px;
-  color: rgb(255, 255, 255);
+  color: rgba(244, 244, 244, 0.953);
   text-transform: uppercase;
+  padding-top: 15rem;
 }
 
 .media-h1:hover {
-  color: #7e2534;
+  color: #cb1f1fa7;
 }
 .container {
   position: relative;
   text-align: center;
   color: white;
-  /* padding-top: 15rem; */
+  overflow: hidden;
 }
 
+#sunlight {
+  padding-top: 60rem;
+}
 .sub-text {
   margin-top: 20px;
   font-size: 1.3rem;
@@ -34,6 +37,22 @@
   line-height: 1.2;
   color: rgb(255, 255, 255);
   text-transform: none;
+}
+
+.title {
+  font-family: "Visby-Bold";
+  font-size: 9rem;
+  padding: 2rem;
+  color: rgb(26, 25, 25);
+  text-align: left;
+  margin-top: 8rem;
+}
+
+.sub-title {
+  font-family: "Visby-Reg";
+  font-size: 1.8rem;
+  line-height: 1.2;
+  padding: 2rem;
 }
 .centered {
   position: absolute;
@@ -50,8 +69,17 @@
   color: whitesmoke;
 }
 
-.at-vid {
-  margin-top: 12rem;
+#at-vid {
   width: 100%;
-  height: 90vh;
+}
+
+#tsc-vid {
+  width: 100%;
+  height: 100vh;
+}
+
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  margin-top: -7rem;
 }

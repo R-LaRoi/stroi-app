@@ -1,16 +1,18 @@
 import React from 'react'
-import jmp from './assets/jumpn.mp4'
-import tsc from './assets/tsc.mp4'
-import vista from './assets/vista.mp4'
 import atelier from './assets/atelier.mp4'
 import './hpg.css'
+import Projects from './Projects'
 
-export default function Homepage () {
+export default function Homepage () 
+{
 
-return(
-  <>
-   <div className='container' >
-  <video playsInline autoPlay muted loop id="video-hpg at-vid">
+return(  
+
+
+
+<div className='container'>
+<div id='sunlight'>
+  <video playsInline autoPlay muted loop id="">
         <source
           src={atelier}
           type="video/mp4"
@@ -25,45 +27,8 @@ return(
             <div className='caption'>
 
       </div>
-
 </div>
-   <div className='container' >
-      <video playsInline autoPlay muted loop id="video-hpg">
-        <source
-          src={tsc}
-          type="video/mp4"
-        />
-      </video>
-      <div className='media-h1'>
-     tsc
-      <div className='sub-text'>Trupti Samuel Consultancy, specializes in parental therapy and early childhood counseling. 
-         </div>
-      </div>
-     
+<Projects/>
 </div>
-      <video playsInline autoPlay muted loop id="video-hpg">
-        <source
-          src={vista}
-          type="video/mp4"
-        />
-      </video>
-             <div className='caption'>
-VISTA
-      </div>
-  
- <video playsInline autoPlay muted loop id="video-hpg">
-        <source
-          src={jmp}
-          type="video/mp4"
-        />
-      </video>
-               <div className='caption'>
-JMPN
-      </div>
 
-      </>
-)
-
-
-}
-
+)};

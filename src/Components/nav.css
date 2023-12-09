@@ -24,65 +24,11 @@
 .logo:hover {
   width: 2.5rem;
 }
-/* 
-.sm-nav {
-  height: 20%;
-  background-color: transparent;
-}
-
-.sb-txt {
-  position: absolute;
-  top: 47%;
-  font-size: 1.5rem;
-  font-family: "arial";
-  right: 42%;
-  display: inline;
-}
-
-.caption {
-  text-align: left;
-  padding: 2rem;
-  color: black;
-}
-.nav-ul,
-#links {
-  list-style: none;
-  flex-direction: row;
-  display: flex;
-  text-decoration: none;
-  font-size: 0.8rem;
-  width: 100%;
-  background-color: rgb(255, 255, 255);
-  margin: 0;
-  color: rgb(40, 40, 40);
-  height: 100px;
-  z-index: 1;
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-#a-nav {
-  text-decoration: none;
-  color: black;
-}
-
-.nav-container {
-  width: 100%;
-  padding: 20px;
-  z-index: 1;
-  /* display: none; */
 
 * {
   margin: 0;
   padding: 0;
 }
-/* body {
-  height: 200vh;
-  background-color: rgb(110, 110, 110);
-} */
 
 .nav-links {
   position: fixed;
@@ -101,7 +47,7 @@ ul {
 li {
   display: inline;
   margin: 0 1rem;
-  color: rgb(68, 65, 65);
+  color: rgb(230, 217, 217);
   font-family: "Visby-Reg";
   letter-spacing: 8px;
   text-transform: uppercase;
