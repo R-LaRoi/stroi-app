@@ -1,5 +1,5 @@
 import stroy from './assets/stroy.mp4'
-import './nav.css'
+import './stylesheets/nav.css'
 import Navbar from './Navbar'
 
  window.onscroll = function() { 

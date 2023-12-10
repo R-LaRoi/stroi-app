@@ -1,7 +1,8 @@
 import React from 'react'
 import atelier from './assets/atelier.mp4'
-import './hpg.css'
-import Projects from './Projects'
+import './stylesheets/hpg.css'
+import Projects from './HpgProjects'
+import Footer from './Footer'
 
 export default function Homepage () 
 {
@@ -29,6 +30,7 @@ return(
       </div>
 </div>
 <Projects/>
+<Footer />
 </div>
 
 )};

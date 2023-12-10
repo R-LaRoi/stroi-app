@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import './nav.css'
+import './stylesheets/nav.css'
 
 import initial from './assets/ologo.svg'
 

@@ -1,0 +1,26 @@
+.hpg-footer {
+  padding: 15px;
+  font-size: 0.4rem;
+  height: 30px;
+  background-color: rgb(22, 22, 22);
+  z-index: 9;
+  color: rgb(68, 67, 67);
+  text-align: left;
+}
+.hpg-icon {
+  position: relative;
+  background-color: transparent;
+  box-shadow: none;
+  color: rgb(100, 90, 90);
+  font-size: 0.8rem;
+  padding: 0px;
+  margin: 0px;
+}
+
+a {
+  color: rgb(34, 34, 34);
+}
+
+a:hover {
+  text-decoration: none;
+}
