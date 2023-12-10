@@ -14,11 +14,15 @@ return(
 
 
   <>
+
   <section className='two-col'>
+
   <div className='title'>
+    
 TSC
 <div className='sub-title' >Trupti Samuel Consultancy, specializes in parental therapy and early childhood counseling. 
          </div>
+         <div className='dash'></div>
   </div>
 <div>
  <video playsInline autoPlay muted loop id="tsc-vid" >
@@ -33,7 +37,7 @@ TSC
 Vista
 <div className='sub-title' >Chingu Voyage
          </div>
-
+ <div className='dash'></div>
   </div>
 <div>
  <video playsInline autoPlay muted loop id="tsc-vid" >
@@ -47,7 +51,7 @@ Vista
 WTM
 <div className='sub-title'>fitness coach mobile application
          </div>
-
+ <div className='dash'></div>
   </div>
 <div>
  <video playsInline autoPlay muted loop id="tsc-vid" >

@@ -25,7 +25,7 @@ return(
       </div>
 
             <div className='caption'>
-
+      <div className='sm-header'>projects</div>
       </div>
 </div>
 <Projects/>
