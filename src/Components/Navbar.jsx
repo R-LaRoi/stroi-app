@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { Link } from "react-router-dom";
 import './stylesheets/nav.css'
 
 import initial from './assets/ologo.svg'
@@ -25,12 +26,15 @@ export default function Navbar () {
           height: navSize,
           transition: "all 1s",
         }}>
-
-    <li>projects</li>
+  <li>
+      <Link to="/projects" >projects</Link>
+      </li>
     <li>
+  <Link to="/main"> 
   <img src={initial} className='logo'/>
+  </Link>
   </li> 
-    <li>connect </li>
+    <li><Link to="/connect">connect</Link></li> 
  </ul>
 </section>
   )

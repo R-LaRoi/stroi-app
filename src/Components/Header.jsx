@@ -21,12 +21,10 @@ import Navbar from './Navbar'
         
     } 
 
-export default function Nav() {
-
+export default function Header() {
 
   return (
-    <> 
-    <Navbar />  
+    <>  
       <div className='nav-items' id="nav-items" >
          <video playsInline autoPlay muted loop className="hero-vid" id="hero-vid">
         <source

@@ -18,7 +18,7 @@ return(
              </li>
 
         <li>
-          <i class="fa-solid fa-square-envelope footer-icon"></i>
+          <i className="fa-solid fa-square-envelope footer-icon"></i>
           </li>
         <li>
           <a href="https://www.linkedin.com/in/rachel-stroy-978397277" target= "_blank" alt="no alternative text">
