@@ -25,6 +25,7 @@ export default function Header() {
 
   return (
     <>  
+
       <div className='nav-items' id="nav-items" >
          <video playsInline autoPlay muted loop className="hero-vid" id="hero-vid">
         <source

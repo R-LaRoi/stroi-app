@@ -2,14 +2,13 @@ import React  from 'react'
 import projectData from './ProLinkData'
 
 
-
-export default function ProjectLink() {
+export default function ProjectsLink() {
 
 let proLink = projectData.map( (procards, index) => {
    console.log(procards)
 return(
-
 <section> 
+  projects
   <div>
     {procards.title}
   </div>

@@ -9,7 +9,7 @@
   bottom: auto;
   z-index: 99;
   justify-content: center;
-  /* padding-top: 50px; */
+  gap: 20px;
 }
 
 #hero-vid {
@@ -32,11 +32,11 @@
 }
 
 .nav-links {
-  position: fixed;
+  /* position: fixed;
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   /* height: 10rem; */
   z-index: 99;
 }
@@ -45,14 +45,16 @@ ul {
   list-style: none;
 }
 
+a,
 li {
   display: inline;
-  margin: 0 1rem;
-  color: rgb(230, 217, 217);
+  margin: 1rem;
+  color: rgb(150, 145, 145);
   font-family: "Visby-Reg";
-  letter-spacing: 8px;
+  letter-spacing: 6px;
   text-transform: uppercase;
   font-weight: 800;
+  text-decoration: none;
 }
 
 li:hover {
