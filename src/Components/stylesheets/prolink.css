@@ -1,0 +1,36 @@
+.pro-title {
+  font-family: "Visby-Bold";
+  font-size: 6rem;
+  padding: 3rem;
+  margin-top: 8rem;
+  color: rgb(39, 38, 37);
+}
+
+/* .pro-section {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+} */
+.pro-col-1 {
+  position: fixed;
+  height: 100vh;
+  /* background-color: rgb(38, 36, 37); */
+  color: rgb(40, 38, 38);
+  left: 0;
+  top: 0;
+}
+.pro-col-2 {
+  padding-top: 80px;
+  width: 50%;
+  margin-left: 33%;
+}
+
+.pro-ul,
+#pro-vid {
+  width: 105%;
+  margin-left: 13rem;
+  padding-top: 25px;
+}
+
+.pro-cards {
+}

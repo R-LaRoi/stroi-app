@@ -1,0 +1,13 @@
+.connect-section {
+  display: flex;
+  flex-direction: row;
+  gap: 8rem;
+  margin-top: 5rem;
+}
+
+.connect-subtxt {
+  font-size: 1.5rem;
+  margin-top: 13rem;
+  width: 40%;
+  border-bottom: 10px solid rgb(207, 51, 51);
+}

@@ -1,5 +1,8 @@
 import React  from 'react'
 import projectData from './ProLinkData'
+import Navbar from './Navbar'
+import './stylesheets/prolink.css'
+import Footer from './Footer'
 
 
 export default function ProjectsLink() {
@@ -7,14 +10,25 @@ export default function ProjectsLink() {
 let proLink = projectData.map( (procards, index) => {
    console.log(procards)
 return(
-<section> 
-  projects
-  <div>
+
+<section className="pro-cards"> 
+<div>
+    <video playsInline autoPlay muted loop id="pro-vid" >
+        <source
+          src={procards.video}
+          type="video/mp4"
+        />
+      </video>
+  </div>
+<ul className='pro-ul'>
+  <li className='pro-li'>
     {procards.title}
-  </div>
-    <div>
+  </li>
+    <li className='pro-li'>
     {procards.text}
-  </div>
+  </li>
+  
+  </ul>
 </section>
 
 
@@ -22,19 +36,27 @@ return(
 
 )
 return(
+<>
+  <Navbar/>
+<section className='pro-section'> 
+<div className='pro-col-1'>
+    <div className='pro-title'>
+                      PROJECTS
+          <div className='sub-title'>
+            current projects 
+           </div>
+            <div className='dash'></div>
+    </div>
+</div>
 
-<section className='two-col'> 
-<div className='title'>
-PROJECTS
-<div className='sub-title'>current projects 
-         </div>
-         <div className='dash'></div>
-  </div>
-<div>
-  {proLink}
+  <div className='pro-col-2'>
+
+ <li id="pro-vid"> {proLink}</li>
+
 </div>
 </section>
 
+</>
 )
 
 
