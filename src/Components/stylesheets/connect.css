@@ -1,13 +1,38 @@
 .connect-section {
-  display: flex;
-  flex-direction: row;
-  gap: 8rem;
-  margin-top: 5rem;
+  text-align: center;
 }
 
-.connect-subtxt {
-  font-size: 1.5rem;
-  margin-top: 13rem;
-  width: 40%;
-  border-bottom: 10px solid rgb(207, 51, 51);
+.card-connect {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  padding: 4rem;
+  font-family: "Visby-Reg";
+  color: rgba(181, 64, 64, 0.871);
+}
+
+.sb-cn-txt {
+  font-family: "Visby-Reg";
+  color: rgba(181, 64, 64, 0.871);
+  padding: 20px;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  width: 500px;
+  margin-left: 30%;
+}
+.connect-txt {
+  color: rgb(25, 23, 23);
+  list-style: none;
+  padding: 40px;
+  width: 300px;
+  border-radius: 10px;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
+    rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+
+.connect-ul {
+  color: rgb(25, 23, 23);
+  list-style: none;
 }

@@ -22,12 +22,12 @@ export default function Navbar () {
 
 <section className='' id=''>
  <div className=''>
-       <ul className='nav-items'>
-        <li className="nav-links">
-          <NavLink to="/projects">projects</NavLink>
+       <ul className='nav-items navbar-ul'>
+        <li className="nav-links navbar-li">
+          <NavLink to="/projects" classname='navbar-a'>projects</NavLink>
           </li>
-        <li className="nav-links"><NavLink to='/main'> <img src={initial} className='logo'/></NavLink></li>
-        <li className="nav-links"><NavLink to="/connect">connect</NavLink></li>
+        <li className="nav-links navbar-li"><NavLink to='/main'> <img src={initial} className='logo'/></NavLink></li>
+        <li className="nav-links navbar-li"><NavLink to="/connect">connect</NavLink></li>
       </ul>
      </div>
  

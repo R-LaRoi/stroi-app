@@ -41,12 +41,12 @@
   z-index: 99;
 }
 
-ul {
+.navbar-ul {
   list-style: none;
 }
 
-a,
-li {
+.navbar-a,
+.navbar-li {
   display: inline;
   margin: 1rem;
   color: rgb(150, 145, 145);
@@ -57,7 +57,7 @@ li {
   text-decoration: none;
 }
 
-li:hover {
+.navbar-li:hover {
   color: #cb1f1f;
   cursor: pointer;
 }
