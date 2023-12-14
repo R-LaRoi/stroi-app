@@ -2,20 +2,21 @@
   margin-top: -30rem;
 }
 
-.media-h1 {
+.ate-h1 {
   position: absolute;
-  top: 30%;
-  left: 50%;
+  top: 150%;
+  left: 53%;
   transform: translate(-50%, -50%);
-  font-size: 3.5rem;
+  font-size: 5.5rem;
   font-family: "Visby-Bold";
-  letter-spacing: 19px;
-  color: rgba(244, 244, 244, 0.953);
+  letter-spacing: 10px;
+  color: rgba(244, 244, 244, 0.842);
   text-transform: uppercase;
   padding-top: 15rem;
+  text-align: center;
 }
 
-.media-h1:hover {
+.ate-h1:hover {
   color: #cb1f1fa7;
 }
 .container {
@@ -23,15 +24,15 @@
   text-align: center;
   color: white;
   overflow: hidden;
+  width: 100%;
 }
 
 #sunlight {
-  padding-top: 60rem;
+  padding-top: 50rem;
 }
 .sub-text {
-  margin-top: 20px;
+  margin-top: 5px;
   font-size: 1.3rem;
-  /* transform: translate(-50%, -50%); */
   font-family: "Visby-Reg";
   letter-spacing: 2px;
   line-height: 1.2;
@@ -54,18 +55,11 @@
   line-height: 1.2;
   padding: 1.5rem;
 }
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 
 .caption {
   padding: 40px;
   margin-top: -10px;
   margin-bottom: 10rem;
-  /* background-color: rgb(19, 19, 19); */
   color: whitesmoke;
 }
 
@@ -82,8 +76,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-top: -9rem;
-
-  /* background-color: black; */
 }
 
 .sm-header {
@@ -102,6 +94,15 @@
   width: 190px;
   border-radius: 4px;
   padding: 10px;
-
   margin-left: 20px;
+}
+
+.txt-dash {
+  background-color: #d72638cc;
+  width: 250px;
+  border-radius: 4px;
+  padding: 10px;
+  position: relative;
+  left: 25%;
+  margin-top: 1rem;
 }

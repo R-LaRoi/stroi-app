@@ -8,11 +8,8 @@ let projectCards = data.map( (project, index) => {
   
 return(
   <>
-
-  <section className='two-col'> 
-
-<div className='title'>
-
+<section className='two-col'> 
+<div className='title' >
 {project.header}
 <div className='sub-title' >{project.subtext}
          </div>
@@ -27,6 +24,7 @@ return(
       </video>
       
 </div>
+
 </section>
 </>
 )

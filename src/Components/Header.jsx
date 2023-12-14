@@ -7,15 +7,15 @@ import Navbar from './Navbar'
     }; 
   
     function scrollFunction() {
-        if (document.body.scrollTop > 420 || 
+        if (document.body.scrollTop > 430 || 
             document.documentElement.scrollTop > 420) 
         { document.getElementById("hero-vid") 
                         .style.display = "none"; 
-            document.getElementById("navbar").style.display = "inline"; 
+            document.getElementById("showNav").style.display = "block"; 
          
         } else {
- document.getElementById("hero-vid") 
- .style.display = "block"; 
+ document.getElementById("hero-vid").style.display = "block"; 
+  document.getElementById("showNav").style.display = "none"; 
 
         }
         
@@ -25,7 +25,9 @@ export default function Header() {
 
   return (
     <>  
-
+    <div className='showNav' id="showNav">
+<Navbar />
+</div>
       <div className='nav-items' id="nav-items" >
          <video playsInline autoPlay muted loop className="hero-vid" id="hero-vid">
         <source

@@ -7,6 +7,7 @@ return(
 
 
 <footer className="hpg-footer">
+  
   <ul className="hpg-ul">
       <li>© Copyright 2023 Rachel Stroy | All Rights Reserved</li>
 

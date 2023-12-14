@@ -1,52 +1,29 @@
 // import { useState, useEffect } from 'react';
 import { NavLink } from "react-router-dom";
 import './stylesheets/nav.css'
-import initial from './assets/ologo.svg'
+// import initial from './assets/ologo.svg'
+import logo from './assets/logoblanco.svg'
 
 export default function Navbar () {
-  
-  // const [navSize, setnavSize] = useState("1rem");
-  // const [navColor, setnavColor] = useState("transparent");
-  
-  // const listenScrollEvent = () => {
-  //   window.scrollY > 10 ? setnavColor("transparent") : setnavColor("transparent");
-  //   window.scrollY > 10 ? setnavSize("5rem") : setnavSize("10rem");
-  // };
-  // useEffect(() => {
-  //   window.addEventListener("scroll", listenScrollEvent);
-  //   return () => {
-  //     window.removeEventListener("scroll", listenScrollEvent);
-  //   };
-  // }, []);
-  return(
+    return(
+<section>
+  <div className='nav-container'>
+{/* <img className="logo" src={logo} alt="" width={100} />  */}
+<div className="btn-group">
+  <button className="btn btn-secondary" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+<img className="logo" src={logo} alt="" width={120} /> 
+<div className="dropdown-toggle"></div>
+  </button>
+  <ul className="dropdown-menu">
+    <li>< NavLink to="/projects" className="dropdown-item" >Projects</NavLink></li>
+    <li><NavLink to="/connect" className="dropdown-item" >Connect</NavLink></li>
+     <li><NavLink to="/main" className="dropdown-item" >Main</NavLink></li>
+  </ul>
+</div>
+</div>
 
-<section className='' id=''>
- <div className=''>
-       <ul className='nav-items navbar-ul'>
-        <li className="nav-links navbar-li">
-          <NavLink to="/projects" classname='navbar-a'>projects</NavLink>
-          </li>
-        <li className="nav-links navbar-li"><NavLink to='/main'> <img src={initial} className='logo'/></NavLink></li>
-        <li className="nav-links navbar-li"><NavLink to="/connect">connect</NavLink></li>
-      </ul>
-     </div>
- 
 
- {/* <ul className='nav-links'  style={{
-          backgroundColor: navColor,
-          height: navSize,
-          transition: "all 1s",
-        }}>
-  <li>
-      <Link to="/projects" >projects</Link>
-      </li>
-    <li>
-  <Link to="/main"> 
-  <img src={initial} className='logo'/>
-  </Link>
-  </li> 
-    <li><Link to="/connect">connect</Link></li> 
- </ul> */}
+
 </section>
   )
 

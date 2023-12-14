@@ -15,7 +15,7 @@ const data = [
 
   {
     mediaSource: jmp ,
-    header: "What's The Move",
+    header: "WTM",
     subtext: "Daily Workout Log",
   },
 ];
