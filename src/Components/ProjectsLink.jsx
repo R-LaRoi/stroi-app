@@ -52,7 +52,7 @@ return(
 
   <div className='pro-col-2'>
 
- <li id="pro-vid"> {proLink}</li>
+ <li id="pro-ul"> {proLink}</li>
 
 </div>
 </section>

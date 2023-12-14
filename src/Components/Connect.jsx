@@ -21,7 +21,11 @@ return(
      meet rachel
         <div className='sub-text'>
   As an artist and developer innovation is essential throughout my creative process. While new technologies continue to unfold, I am interested in creating meaningful projects that have a positive impact.
-In addition to coding, I am a globetrotting, fit-for-life coach, currently based in New York.
+<div>
+<div></div>
+In addition to coding, I am a globetrotting, fit-for-life coach, currently based in New York.  If you are seeking a visionary web solutions architect who combines technical prowess, creative design, and collaboration to deliver remarkable results, let's connect and explore how we can build together.
+</div>
+
          </div>
       </div>
     

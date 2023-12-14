@@ -19,13 +19,23 @@
   padding-top: 11rem;
   width: 70%;
   margin-left: 28%;
+  list-style: none;
 }
 
-.pro-ul,
 #pro-vid {
   width: 85%;
   margin-left: 10rem;
   padding-top: 25px;
+  list-style: none;
+}
+
+.pro-ul {
+  width: 85%;
+  margin-left: 8.5rem;
+  padding-top: 25px;
+  list-style: none;
+  font-family: "Visby-Reg";
+  font-size: 1.2rem;
 }
 
 .pro-cards {

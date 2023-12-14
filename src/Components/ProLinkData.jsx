@@ -3,18 +3,23 @@ import jmp from "./assets/jfeet.mp4";
 import tsc from "./assets/tsc.mp4";
 import vista from "./assets/vista.mp4";
 
+import stl from "./assets/stl.mp4";
+import sundae from "./assets/sundae.mp4";
+import atc from "./assets/atclip5.mp4";
+import book from "./assets/book.mp4";
+import bear from "./assets/brnbear.mp4";
 
 
 const projectData = [
 
  {
     id:5, 
- video: tsc,
+ video: atc,
     image: '',
-    title: 'Trupti Samuels Consultancy',
-  text:'Early childhood development ',
-git:'https://github.com/R-LaRoi/writers-block-v3',
-link:'https://writers-block-13d59d.netlify.app/'
+    title: 'ALTELIER 718',
+  text:'E-commerce platform for apparel company.',
+// git:'https://github.com/R-LaRoi/writers-block-v3',
+link:'https://atelier718.com/'
   },
 
 
@@ -22,8 +27,8 @@ link:'https://writers-block-13d59d.netlify.app/'
     video: tsc,
     image: '',
     title: 'TS Consultancy',
-  text: 'Private Consultant Profile | HTML | CSS ',
-git:'',
+  text: 'Private consultancy webpage for early childhood counseling and therapy. ' 
+,
 link:'https://tsc-consultancy-aus.netlify.app/'
   },
    { 
@@ -31,7 +36,7 @@ link:'https://tsc-consultancy-aus.netlify.app/'
   video: jmp,
     image: '',
     title: 'what`s the move',
-  text:'Daily excercise log. React|Firebase ',
+  text:'Daily excercise log and fitness coach profile.',
 git:'https://github.com/R-LaRoi/Move-app',
 link:'https://whatsthemoveapp.netlify.app/'
 
@@ -41,26 +46,26 @@ link:'https://whatsthemoveapp.netlify.app/'
     id:4, 
       video: vista,
     // image:
-    title: 'saint lucia',
-  text:'Single Column Theme',
-git:'https://github.com/R-LaRoi/Travel-Saint-Lucia',
-link:'https://saintluciatravel.netlify.app/'
+    title: 'Vista',
+  text:'Create an e-commerce store using Vista. ',
+git:'https://github.com/chingu-voyages/v45-tier3-team-43/tree/main',
+link:'https://fashionvista.vercel.app/'
   }
 ,{
     id:6, 
-    // image:dash,
+    video:bear,
     title: 'The Purple Cat',
-  text:'Chrome Extension | React | API ',
-git:'https://app.netlify.com/sites/the-purple-cat-dbext-a811b8/settings/general',
+  text:'Child friendly chrome dashboard. ',
+// git:'https://app.netlify.com/sites/the-purple-cat-dbext-a811b8/settings/general',
 link:'https://the-purple-cat-dbext-a811b8.netlify.app/'
   },
   {
     id:7, 
-    // image:shop,
+    video:book,
     title: 'Shopping Cart',
   text:'Firebase | React',
-git:'https://github.com/R-LaRoi/Shopping-Cart',
-link:'https://shoppingcartlistfb.netlify.app/'
+// git:'https://github.com/R-LaRoi/Shopping-Cart',
+link:'https://writers-block-13d59d.netlify.app/'
   },
  
 
@@ -68,7 +73,7 @@ link:'https://shoppingcartlistfb.netlify.app/'
 
   {
     id:3, 
-    // image: slide3,
+    video: sundae,
     title: 'Flavors',
   text:'HTML | CSS | JAVASCRIPT',
 git:'https://github.com/R-LaRoi/Flavor-App',
@@ -80,11 +85,11 @@ git:'https://github.com/R-LaRoi/Flavor-App',
 
   {
     id:8, 
-    // image:sevenday,
-    title: '7-Day Weather Dashboard',
-  text:'API | HTML | CSS | JAVASCRIPT',
-git:'https://github.com/R-LaRoi/7-Day-Forecast',
-link:'https://sevendayweatherappsaintanse.netlify.app/'
+    video:stl,
+    title: 'TRAVEL',
+  text:'Saint Lucia travel profile.',
+// git:'https://github.com/R-LaRoi/7-Day-Forecast',,
+link:'https://saintluciatravel.netlify.app/'
   },
 
  
