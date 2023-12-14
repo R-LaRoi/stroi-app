@@ -12,16 +12,39 @@ import bear from "./assets/brnbear.mp4";
 
 const projectData = [
 
- {
-    id:5, 
- video: atc,
-    image: '',
-    title: 'ALTELIER 718',
-  text:'E-commerce platform for apparel company.',
-// git:'https://github.com/R-LaRoi/writers-block-v3',
-link:'https://atelier718.com/'
+   {
+   id:4, 
+      video: atc,
+    // image:
+    title: 'Atelier 718',
+  text:'An e-commerce storefront for Brooklyn based apparel company. ',
+git:'https://github.com/chingu-voyages/v45-tier3-team-43/tree/main',
+link:'https://atelier718.com'
   },
 
+ {
+   id:4, 
+      video: vista,
+    // image:
+    title: 'Vista',
+  text:'Create an e-commerce store using Vista. ',
+git:'https://github.com/chingu-voyages/v45-tier3-team-43/tree/main',
+link:'https://fashionvista.vercel.app/'
+  },
+
+
+
+
+
+    {
+    id:6, 
+    video: sundae,
+    title: 'Sundae',
+  text:'Ice Cream Ordering App',
+git:'https://github.com/R-LaRoi/Flavor-App',
+// link:'https://flavors-babka-f5ce18.netlify.app/'
+
+  },
 
   { id:2,
     video: tsc,
@@ -32,7 +55,7 @@ link:'https://atelier718.com/'
 link:'https://tsc-consultancy-aus.netlify.app/'
   },
    { 
-    id:1,
+    id:3,
   video: jmp,
     image: '',
     title: 'what`s the move',
@@ -52,7 +75,7 @@ git:'https://github.com/chingu-voyages/v45-tier3-team-43/tree/main',
 link:'https://fashionvista.vercel.app/'
   }
 ,{
-    id:6, 
+    id:4, 
     video:bear,
     title: 'The Purple Cat',
   text:'Child friendly chrome dashboard. ',
@@ -60,7 +83,7 @@ link:'https://fashionvista.vercel.app/'
 link:'https://the-purple-cat-dbext-a811b8.netlify.app/'
   },
   {
-    id:7, 
+    id:5, 
     video:book,
     title: 'Shopping Cart',
   text:'Firebase | React',
@@ -71,20 +94,10 @@ link:'https://writers-block-13d59d.netlify.app/'
 
 
 
-  {
-    id:3, 
-    video: sundae,
-    title: 'Flavors',
-  text:'HTML | CSS | JAVASCRIPT',
-git:'https://github.com/R-LaRoi/Flavor-App',
-// link:'https://flavors-babka-f5ce18.netlify.app/'
-
-  },
-
 
 
   {
-    id:8, 
+    id:7, 
     video:stl,
     title: 'TRAVEL',
   text:'Saint Lucia travel profile.',

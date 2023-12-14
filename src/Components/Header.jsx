@@ -7,8 +7,8 @@ import Navbar from './Navbar'
     }; 
   
     function scrollFunction() {
-        if (document.body.scrollTop > 430 || 
-            document.documentElement.scrollTop > 420) 
+        if (document.body.scrollTop > 410 || 
+            document.documentElement.scrollTop > 410) 
         { document.getElementById("hero-vid") 
                         .style.display = "none"; 
             document.getElementById("showNav").style.display = "block"; 

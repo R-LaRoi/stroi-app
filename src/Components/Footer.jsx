@@ -7,10 +7,10 @@ return(
 
 
 <footer className="hpg-footer">
-  
-  <ul className="hpg-ul">
-      <li>© Copyright 2023 Rachel Stroy | All Rights Reserved</li>
 
+  <ul className="hpg-ul">
+      <div>© Copyright 2023 Rachel Stroy | All Rights Reserved</div>
+{/* 
         <li>
           <a href="https://github.com/R-LaRoi/" target= "_blank" alt="no alternative text">
           <i className="fa-brands fa-github footer-icon">
@@ -26,7 +26,7 @@ return(
           <i className="fa-brands fa-linkedin-in footer-icon">
             </i>
             </a>
-            </li>
+            </li> */}
   </ul>
 
 

@@ -1,8 +1,9 @@
 .hpg-footer {
+  position: fixed;
   padding: 15px;
   font-size: 0.4rem;
-  height: 30px;
-  background-color: rgb(22, 22, 22);
+  height: 60px;
+  background-color: #1e1e1e;
   z-index: 9;
   color: rgb(68, 67, 67);
   text-align: left;

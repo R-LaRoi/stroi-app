@@ -1,5 +1,5 @@
 import React  from 'react'
-import projectData from './ProLinkData'
+import projectData from './Data'
 import Navbar from './Navbar'
 import './stylesheets/prolink.css'
 import Footer from './Footer'

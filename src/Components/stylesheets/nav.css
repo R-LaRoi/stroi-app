@@ -6,12 +6,12 @@
 
 .btn:hover,
 .dropdown-menu:hover {
-  background-color: rgb(246, 233, 233);
+  background-color: rgb(255, 255, 255);
 }
 
 .dropdown-menu {
-  background-color: rgb(255, 255, 255);
-  color: rgb(35, 35, 35);
+  background-color: #ffffff;
+  color: rgb(22, 22, 22);
   padding: 10px;
   font-size: 1.3rem;
   text-transform: uppercase;
@@ -22,11 +22,11 @@
 }
 
 .dropdown-item {
-  color: whitesmoke;
+  color: rgb(238, 238, 238);
 }
 
 .dropdown-item:hover {
-  background-color: rgba(255, 255, 255, 0.458);
+  background-color: rgba(56, 56, 56, 0.458);
 }
 .nav-container {
   background-color: rgb(255, 255, 255);

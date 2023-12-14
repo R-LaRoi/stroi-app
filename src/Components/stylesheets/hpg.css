@@ -31,7 +31,7 @@
   padding-top: 50rem;
 }
 .sub-text {
-  margin-top: 5px;
+  margin-top: 2px;
   font-size: 1.3rem;
   font-family: "Visby-Reg";
   letter-spacing: 2px;
@@ -40,10 +40,11 @@
   text-transform: none;
 }
 
-.title {
+.title,
+.dev-profile {
   font-family: "Visby-Bold";
-  font-size: 9rem;
-  padding: 50px;
+  font-size: 6rem;
+  padding: 0px;
   color: rgb(32, 31, 31);
   text-align: left;
   margin-top: 6rem;
@@ -51,15 +52,15 @@
 
 .sub-title {
   font-family: "Visby-Reg";
-  font-size: 1.7rem;
-  line-height: 1.2;
-  padding: 1.5rem;
+  font-size: 1.5rem;
+  line-height: 1;
+  padding: 0.5rem;
 }
 
 .caption {
-  padding: 40px;
+  padding: 30px;
   margin-top: -10px;
-  margin-bottom: 10rem;
+  margin-bottom: 5rem;
   color: whitesmoke;
 }
 
@@ -83,7 +84,7 @@
   font-family: "Visby-Bold";
   letter-spacing: 5px;
   text-transform: uppercase;
-  font-size: 2rem;
+  font-size: 4rem;
   text-align: left;
   margin-top: 5rem;
   padding: 1rem;
@@ -91,10 +92,21 @@
 
 .dash {
   background-color: #d72638;
-  width: 190px;
-  border-radius: 4px;
+  width: 150px;
+  border-radius: 0px;
   padding: 10px;
-  margin-left: 20px;
+  margin-left: 5px;
+  margin-top: 20px;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+  font-family: "visby-bold";
+}
+
+.dash:hover {
+  cursor: pointer;
+  background-color: #d72638cd;
 }
 
 .txt-dash {
@@ -105,4 +117,43 @@
   position: relative;
   left: 25%;
   margin-top: 1rem;
+}
+
+#pro-ul-main {
+  margin-left: 0rem;
+}
+
+.dev-profile {
+  background-color: #1e1e1e;
+  height: 90vh;
+  color: white;
+  font-family: "Visby-Reg";
+  padding-left: 3rem;
+}
+
+.dev-title {
+  line-height: 50px;
+  letter-spacing: -2px;
+  font-size: 4.2rem;
+  font-family: "Visby-Bold";
+  color: #ffffffec;
+  text-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+    rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  padding: 3rem;
+}
+
+.rachel {
+  background-color: #d72638cc;
+  color: #ffffff;
+  font-size: 4.5rem;
+  width: fit-content;
+
+  /* text-decoration: underline solid 20px #d72638; */
+}
+
+.hp-ul {
+  padding-top: 30px;
+  list-style: none;
+  display: flex;
+  gap: 10px;
 }
