@@ -32,42 +32,6 @@ return(
 
 </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{/* 
-
-<section className='two-col'> 
-<div className='title' >
-{project.title}
-<div className='sub-title' >{project.text}
-         </div>
-         <div className='dash'></div>
-  </div>
-<div>
- <video playsInline autoPlay muted loop id="tsc-vid" >
-        <source
-          src={project.video}
-          type="video/mp4"
-        />
-      </video>
-      
-</div>
-
-</section> */}
 </>
 )
 
