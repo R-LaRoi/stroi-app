@@ -54,3 +54,49 @@
 .con-col-2 {
   margin-top: 30%;
 }
+
+@media screen and (min-width: 320px), (max-width: 480px) {
+  .con-sub-text {
+    font-family: "visby-reg";
+    font-size: 0.9rem;
+    text-transform: none;
+    letter-spacing: 2px;
+    padding: 1.5rem;
+    margin-top: -6rem;
+  }
+
+  .media-h1 {
+    padding: 0;
+  }
+  .logob {
+    margin-top: -7rem;
+    width: 150px;
+  }
+  .g-3 {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-top: 10%;
+  }
+
+  .con-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1.8rem;
+    text-align: center;
+  }
+  .con-btn {
+    background-color: #d72638;
+    width: 150px;
+    border-radius: 0px;
+    padding: 10px;
+    margin-left: 5px;
+    margin-top: 20px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-family: "visby-bold";
+    border: none;
+  }
+}

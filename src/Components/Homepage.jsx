@@ -9,11 +9,9 @@ import './stylesheets/nav.css'
 // import { useEffect, useState } from 'react'
 import Header from './Header'
 
-
 const timer = ''
 export default function Homepage () 
 {   
-
 
 
 return(  

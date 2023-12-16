@@ -19,13 +19,13 @@ className ='dsk-vid'>
           type="video/mp4"
         />
       </video>
-      {/* <video playsInline autoPlay muted loop id=""
+      <video playsInline autoPlay muted loop id=""
 className ='mobile-vid'>
         <source
           src={jmpmobile}
           type="video/mp4"
         />
-      </video> */}
+      </video>
 
       <div className='media-h1'>
     <img className="logob" src={stroi} alt="" width={230}/>
@@ -54,16 +54,16 @@ In addition to coding, I am a globetrotting, fit-for-life coach, currently based
     <div class="col">
     <textarea type="input" class="form-control" placeholder="Message" aria-label="email"/>
   </div>
-<button className='dash'> submit</button>
+<button className='con-btn'> submit</button>
 </div>
 </form>
 
 <div className="con-col-2">
 <div className='dev-title'>
-<ul className='hp-ul '>
+{/* <ul className='hp-ul '>
         <li>github</li>
       <li>linkedin</li>
-      <li>art</li></ul>
+      <li>art</li></ul> */}
       </div>
       </div>
 </section>

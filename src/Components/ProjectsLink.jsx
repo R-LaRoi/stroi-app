@@ -21,11 +21,11 @@ return(
         />
       </video>
   </div>
-<ul className='pro-ul'>
-  <li className='pro-li'>
+<ul className='pro-ul' id="project-list">
+  <li className='pro-li  list-title '>
     {procards.title}
   </li>
-    <li className='pro-li'>
+    <li className='pro-li '>
     {procards.text}
   </li>
   
