@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar'
 import jumpvid from './assets/sjump.mp4'
+import jmpmobile from './assets/jmpmobile.mp4'
 import stroi from './assets/lgstroi.png'
 import './stylesheets/connect.css'
 
@@ -11,16 +12,24 @@ return(
 <Navbar />
 <section className='connect-section'> 
 
-<video playsInline autoPlay muted loop id="">
+<video playsInline autoPlay muted loop id=""
+className ='dsk-vid'>
         <source
           src={jumpvid}
           type="video/mp4"
         />
       </video>
+      {/* <video playsInline autoPlay muted loop id=""
+className ='mobile-vid'>
+        <source
+          src={jmpmobile}
+          type="video/mp4"
+        />
+      </video> */}
 
       <div className='media-h1'>
     <img className="logob" src={stroi} alt="" width={230}/>
-        <div className='sub-text'>
+        <div className='con-sub-text'>
   <div></div> As an artist and developer innovation is essential throughout my creative process. While new technologies continue to unfold, I am interested in creating meaningful projects that have a positive impact.
 <div>
 <div></div>

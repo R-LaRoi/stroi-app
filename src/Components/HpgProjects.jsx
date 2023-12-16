@@ -11,7 +11,15 @@ let projectCards = data.map( (project, index) => {
 return(
   <>
 <section className="two-col"> 
-<div>
+
+<video playsInline autoPlay muted loop id="tsc-vid" >
+        <source
+          src={project.video}
+          type="video/mp4"
+        />
+      </video>
+
+<div className='pro-text'>
    <ul className='pro-ul pro-ul-main' id="pro-ul-main">
   <li className='title'>
     {project.title}
@@ -22,12 +30,7 @@ return(
   <div className='dash'>view</div>
   </ul>
   </div>
- <video playsInline autoPlay muted loop id="tsc-vid" >
-        <source
-          src={project.video}
-          type="video/mp4"
-        />
-      </video>
+ 
 
 
 </section>

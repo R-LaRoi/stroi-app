@@ -1,4 +1,5 @@
 import stroy from './assets/stroy.mp4'
+import stmobile from './assets/mobilehero.mp4'
 import './stylesheets/nav.css'
 import Navbar from './Navbar'
 
@@ -29,12 +30,20 @@ export default function Header() {
 <Navbar />
 </div>
       <div className='nav-items' id="nav-items" >
-         <video playsInline autoPlay muted loop className="hero-vid" id="hero-vid">
+         <video playsInline autoPlay muted loop className="dsk-vid" id="">
         <source
           src={stroy}
           type="video/mp4"
         />
       </video>
+
+<video playsInline autoPlay muted loop className=" mobile-vid" id="">
+        <source
+          src={stmobile}
+          type="video/mp4"
+        />
+      </video>
+      
           
       </div>
 

@@ -1,5 +1,6 @@
 import React from 'react'
 import atelier from './assets/atelier.mp4'
+  import atmobile from './assets/atemobile.mp4'
 import './stylesheets/hpg.css'
 import Projects from './HpgProjects'
 import logob from './assets/ologo.svg'
@@ -20,9 +21,17 @@ return(
 <Header />
 <div className=''>
 <div id='sunlight'>
-    <video playsInline autoPlay muted loop id="at-vid">
+    <video playsInline autoPlay muted loop className ='hero-vid dsk-vid' id="at-vid">
         <source
           src={atelier}
+          type="video/mp4"
+        />
+      </video>
+
+<video playsInline autoPlay muted loop  
+className ='mobile-vid' id="at-vid">
+        <source
+          src={atmobile}
           type="video/mp4"
         />
       </video>
