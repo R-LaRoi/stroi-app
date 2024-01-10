@@ -13,6 +13,16 @@ let proLink = projectData.map( (procards, index) => {
 return(
 
 <section className="pro-cards"> 
+
+<ul className='pro-ul' id="project-list">
+  <li className='li-title'>
+    {procards.title}
+  </li>
+    <li className='li-sub-title'>
+    {procards.text}
+  </li>
+  <button className='pro-btn'>view</button>
+  </ul>
 <div>
     <video playsInline autoPlay muted loop id="pro-vid" >
         <source
@@ -21,15 +31,7 @@ return(
         />
       </video>
   </div>
-<ul className='pro-ul' id="project-list">
-  <li className='pro-li  list-title '>
-    {procards.title}
-  </li>
-    <li className='pro-li '>
-    {procards.text}
-  </li>
-  
-  </ul>
+
 </section>
 
 
@@ -44,7 +46,7 @@ return(
     <div className='pro-title'>
                       PROJECTS
           <div className='sub-title'>
-            current projects 
+   
            </div>
             <div className='dash'></div>
     </div>

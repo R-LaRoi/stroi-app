@@ -2,7 +2,7 @@
 import jmp from "./assets/jfeet.mp4";
 import tsc from "./assets/tsc.mp4";
 import vista from "./assets/vista.mp4";
-
+import defpresse from './assets/defpromovid2.mp4'
 import stl from "./assets/stl.mp4";
 import sundae from "./assets/sundae.mp4";
 import atc from "./assets/atclip5.mp4";
@@ -11,7 +11,15 @@ import bear from "./assets/brnbear.mp4";
 
 
 const projectData = [
-
+ {
+   id:8, 
+      video: defpresse,
+    // image:
+    title: 'DefPresse',
+  text:'London based record Label run by people primarily concerned with music. ',
+git:'https://github.com/chingu-voyages/v45-tier3-team-43/tree/main',
+link:'https://atelier718.com'
+  },
    {
    id:4, 
       video: atc,
@@ -58,7 +66,7 @@ link:'https://tsc-consultancy-aus.netlify.app/'
     id:3,
   video: jmp,
     image: '',
-    title: 'what`s the move',
+    title: 'Move',
   text:'Daily excercise log and fitness coach profile.',
 git:'https://github.com/R-LaRoi/Move-app',
 link:'https://whatsthemoveapp.netlify.app/'

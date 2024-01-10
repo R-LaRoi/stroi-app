@@ -6,20 +6,9 @@
   color: rgb(39, 38, 37);
 }
 
-.pro-col-1 {
-  position: fixed;
-  height: 100vh;
-  /* background-color: rgb(38, 36, 37); */
-  color: rgb(40, 38, 38);
-  left: 0;
-  top: 0;
-  margin-top: 5rem;
-}
-.pro-col-2 {
-  padding-top: 11rem;
-  width: 70%;
-  margin-left: 28%;
-  list-style: none;
+.pro-cards {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
 }
 
 #pro-vid {
@@ -31,68 +20,94 @@
 
 .pro-ul {
   width: 85%;
-  margin-left: 8.5rem;
-  padding-top: 25px;
+  margin-top: 6rem;
+  padding-left: 5rem;
   list-style: none;
   font-family: "Visby-Reg";
-  font-size: 1.2rem;
+  border-left: 10px solid #232323;
 }
 
-@media screen and (min-width: 320px), (max-width: 480px) {
-  .pro-col-1 {
-    position: relative;
-    height: 0vh;
-    left: 0;
-    top: 0;
-    margin-top: 5rem;
-    left: 0;
-    top: 0;
+.li-title {
+  font-size: 3.5rem;
+  font-family: "Visby-Bold";
+}
+
+.li-sub-title {
+  font-family: "Visby-Reg";
+  font-size: 1.5rem;
+  line-height: 1;
+  padding: 0.5rem;
+}
+
+.dash {
+  /* background-color: #181818;
+  width: 290px;
+  border-radius: 1px;
+  padding: 5px;
+  margin-left: 5px;
+  margin-top: 20px;
+  border: none; */
+}
+
+.dash:hover {
+  cursor: pointer;
+  background-color: #d72638cd;
+}
+
+.pro-btn {
+  background-color: #d72638;
+  width: 130px;
+  border-radius: 0px;
+  padding: 10px;
+  margin-left: 5px;
+  margin-top: 20px;
+  border: none;
+  color: whitesmoke;
+  letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 768px) {
+  .pro-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  #pro-vid {
+    width: 100%;
+    margin-top: -4rem;
+    margin-left: 0rem;
+    list-style: none;
+  }
+
+  .pro-ul {
+    width: 100%;
+    margin-top: 1rem;
+    padding: 1rem;
+    list-style: none;
+    font-family: "Visby-Reg";
+    border-left: 0px solid #232323;
+    text-align: center;
   }
 
   .pro-title {
     font-family: "Visby-Bold";
     font-size: 2.5rem;
-    /* margin-top: 3rem; */
+    text-align: center;
     padding: 2rem;
-    height: 0;
-    text-align: center;
-    letter-spacing: 3px;
+    margin-top: 8rem;
+    color: rgb(39, 38, 37);
+    line-height: -2px;
   }
 
-  .pro-col-2 {
-    width: 100%;
-    padding-top: 9rem;
-    margin-left: 0;
-    list-style: none;
+  .pro-btn {
+    width: 80%;
+    border-radius: 5px;
+    background-color: #191919;
+    margin-left: 0px;
+    margin-top: 20px;
   }
 
-  .pro-section {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
-
-  #tsc-vid {
-    padding: 1rem 0 1rem 0;
-  }
-
-  #pro-vid {
-    width: 100%;
-    margin-left: 0rem;
-    padding-top: 25px;
-    list-style: none;
-  }
-
-  #project-list {
-    margin: 0rem;
-    padding: 1rem;
-    bottom: 0;
-    text-align: center;
-    line-height: 1.2;
-    font-size: 0.9rem;
-  }
-
-  .list-title {
-    font-family: "Visby-BOLD";
+  .pro-btn:hover {
+    background-color: #e32f2f;
   }
 }

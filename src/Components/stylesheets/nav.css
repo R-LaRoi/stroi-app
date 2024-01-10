@@ -30,7 +30,7 @@
 }
 .nav-container {
   background-color: rgb(255, 255, 255);
-  /* background-color: rgb(25, 24, 24); */
+  /* background-color: rgba(25, 24, 24, 0.095); */
   display: flex;
   width: 100%;
   transition: 10s ease;
@@ -51,9 +51,6 @@
   transition: 3s ease;
 }
 
-#showNav {
-  display: none;
-}
 .logo {
   width: 100px;
   display: flex;
@@ -68,4 +65,9 @@
 
 .navbar-ul {
   list-style: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-container {
+  }
 }

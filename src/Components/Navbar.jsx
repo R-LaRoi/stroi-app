@@ -1,12 +1,16 @@
-// import { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { NavLink } from "react-router-dom";
 import './stylesheets/nav.css'
 // import initial from './assets/ologo.svg'
 import logo from './assets/stroy.svg'
 
+
 export default function Navbar () {
+
     return(
+
 <section>
+  
   <div className='nav-container'>
 {/* <img className="logo" src={logo} alt="" width={100} />  */}
 <div className="btn-group">
@@ -27,5 +31,5 @@ export default function Navbar () {
 </section>
   )
 
-
 }
+

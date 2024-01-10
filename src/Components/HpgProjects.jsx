@@ -10,7 +10,21 @@ let projectCards = data.map( (project, index) => {
   
 return(
   <>
-<section className="two-col"> 
+<section className="pro-cards"> 
+<div className='pro-text'>
+   <ul className='pro-ul pro-ul-main' id="pro-ul-main">
+   
+  <li className='li-title'>
+    {project.title}
+  </li>
+   
+    <li className='li-sub-title'>
+    {project.text}
+  </li>
+  <button className='pro-btn'>view</button>
+  <div className='dash'></div>
+  </ul>
+  </div>
 
 <video playsInline autoPlay muted loop id="tsc-vid" >
         <source
@@ -19,27 +33,12 @@ return(
         />
       </video>
 
-<div className='pro-text'>
-   <ul className='pro-ul pro-ul-main' id="pro-ul-main">
-  <li className='title'>
-    {project.title}
-  </li>
-    <li className='sub-title'>
-    {project.text}
-  </li>
-  <div className='dash'>view</div>
-  </ul>
-  </div>
- 
-
-
 </section>
 
 </>
 )
 
 }})
-
 
 
 return(
