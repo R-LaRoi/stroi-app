@@ -75,15 +75,15 @@
   .g-3 {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 100%;
     margin-top: 10%;
   }
 
   .con-form {
     display: grid;
     grid-template-columns: 1fr;
-    padding: 1.8rem;
-    text-align: center;
+    padding: 1.4rem;
+    justify-items: center;
   }
   .con-btn {
     background-color: #d72638;

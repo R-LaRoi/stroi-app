@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { NavLink } from "react-router-dom";
 import './stylesheets/nav.css'
 // import initial from './assets/ologo.svg'
-import logo from './assets/stroy.svg'
+import logo from './assets/logoblanco.svg'
 
 
 export default function Navbar () {

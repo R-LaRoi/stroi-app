@@ -15,7 +15,7 @@ const projectData = [
    id:8, 
       video: defpresse,
     // image:
-    title: 'DefPresse',
+    title: 'Def Pressé',
   text:'London based record Label run by people primarily concerned with music. ',
 git:'https://github.com/chingu-voyages/v45-tier3-team-43/tree/main',
 link:'https://atelier718.com'

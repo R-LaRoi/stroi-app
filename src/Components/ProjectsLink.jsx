@@ -45,9 +45,7 @@ return(
 <div className='pro-col-1'>
     <div className='pro-title'>
                       PROJECTS
-          <div className='sub-title'>
-   
-           </div>
+         
             <div className='dash'></div>
     </div>
 </div>

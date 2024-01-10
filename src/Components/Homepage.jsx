@@ -25,7 +25,7 @@ return(
         atelier 718
         <div className='sub-text'>Fresh out of Booklyn, New York Atelier 718 was founded by three friends committed to creating a brand that embodies their personal style. They have a story to tell and they're excited to share it with you. 
          </div>
-  {/* <div className='txt-dash'></div> */}
+
       </div>
     <video playsInline autoPlay muted loop className='atelier-vid' id='dsk-vid'>
         <source
