@@ -3,9 +3,7 @@
 }
 
 @font-face {
-  font-family: "Visby-Reg";
   font-family: "Visby-Bold";
-  src: url("./Components/assets/VisbyRegular.ttf");
   src: url("./Components/assets/VisbyBold.ttf");
 }
 

@@ -93,7 +93,7 @@ link:'https://the-purple-cat-dbext-a811b8.netlify.app/'
   {
     id:5, 
     video:book,
-    title: 'Shopping Cart',
+    title: 'Prolouge',
   text:'Firebase | React',
 // git:'https://github.com/R-LaRoi/Shopping-Cart',
 link:'https://writers-block-13d59d.netlify.app/'

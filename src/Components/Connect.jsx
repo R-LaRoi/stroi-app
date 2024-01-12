@@ -41,15 +41,6 @@ In addition to coding, I am a globetrotting, fit-for-life coach, currently based
 </section>
 
 
-  {/* <div className='icons'>
-  <ul>
-  <li>github</li>
-  <li>email</li>
-  <li>linkedin</li>
-  <li>art</li>
-  </ul>
-</div>
- */}
 
 
 

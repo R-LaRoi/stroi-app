@@ -2,7 +2,7 @@
   font-family: "Visby-Bold";
   font-size: 5.5rem;
   padding: 3rem;
-  margin-top: 8rem;
+  margin-top: 4rem;
   color: rgb(39, 38, 37);
 }
 
@@ -11,6 +11,14 @@
   grid-template-columns: 1fr 1.5fr;
 }
 
+.pro-col-1 {
+  font-family: "Visby-Bold";
+  font-size: 9.5rem;
+  padding: 3rem;
+  color: rgba(255, 255, 255, 0.842);
+  position: absolute;
+  top: 30%;
+}
 #pro-vid {
   width: 85%;
   margin-left: 10rem;
@@ -37,16 +45,6 @@
   font-size: 1.5rem;
   line-height: 1;
   padding: 0.5rem;
-}
-
-.dash {
-  /* background-color: #181818;
-  width: 290px;
-  border-radius: 1px;
-  padding: 5px;
-  margin-left: 5px;
-  margin-top: 20px;
-  border: none; */
 }
 
 .dash:hover {
@@ -89,13 +87,13 @@
     text-align: center;
   }
 
-  .pro-title {
+  .pro-col-1 {
     font-family: "Visby-Bold";
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     text-align: center;
-    padding: 2rem;
-    margin-top: 8rem;
-    color: rgb(39, 38, 37);
+    padding: 5rem;
+    margin-top: 3rem;
+    color: rgb(244, 243, 243);
     line-height: -2px;
   }
 

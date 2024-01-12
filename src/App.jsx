@@ -1,6 +1,5 @@
 import React from 'react'
 import {Routes, Route} from "react-router-dom";
-// import Layout from "./Components/Layout";
 import Connect from './Components/Connect'
 import './App.css'
 import Homepage from './Components/Homepage'

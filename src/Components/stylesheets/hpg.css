@@ -7,6 +7,13 @@
   text-decoration: none;
 }
 
+#btn-link:hover {
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+  filter: grayscale(100%);
+}
+
 .r-sub-title {
   line-height: 30px;
   font-size: 1.7rem;
@@ -63,7 +70,6 @@
 }
 
 .sm-header {
-  /* color: #d72638; */
   font-family: "Visby-Bold";
   letter-spacing: -3px;
   text-transform: uppercase;
@@ -91,7 +97,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: #ffffff;
-  /* background-color: #1e1e1e; */
+
   height: 90vh;
   color: #1e1e1e;
   font-family: "Visby-Reg";
@@ -102,11 +108,7 @@
   margin-top: 7rem;
   padding: 0.8rem;
 
-  /* line-height: 80px; */
-
-  /* text-shadow: rgba(0, 0, 0, 0.19) 0px 6px 10px, rgba(0, 0, 0, 0.23) 0px 3px 3px; */
   font-family: "Visby-Bold";
-  /* color: #ffffffec; */
 }
 
 .rachel {
