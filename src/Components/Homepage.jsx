@@ -69,8 +69,6 @@ className ='mobile-vid' id="at-vid">
         <li className='li-ul'> 
         <a href=""></a>
         github
-        
-        
         </li>
       <li className='li-ul'>link
       
