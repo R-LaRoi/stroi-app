@@ -49,7 +49,7 @@ return(
 
   <div class="row g-3">
 
-    <div className='dev-title'>
+    <div className=''>
           <small className=''> Say hi! </small>
       </div>
   <div class="col">

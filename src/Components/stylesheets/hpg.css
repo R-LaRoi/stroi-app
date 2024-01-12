@@ -14,21 +14,24 @@
   filter: grayscale(100%);
 }
 
-#li-link {
-  color: #191818;
-  text-decoration: none;
-  font-size: 3rem;
+.pro-btn:hover {
+  background-color: #d72638;
 }
-#li-link:hover {
-  color: #ffffff;
-  cursor: pointer;
-  text-decoration: none;
-}
-
 .r-sub-title {
   line-height: 30px;
   font-size: 1.7rem;
   font-family: "Visby-reg";
+}
+
+#li-link {
+  color: #1e1d1d;
+  text-decoration: none;
+  font-size: 3rem;
+}
+#li-link:hover {
+  color: #d72638;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .ate-h1 {
@@ -232,7 +235,7 @@
     color: #ffffffec;
     text-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
       rgba(0, 0, 0, 0.23) 0px 6px 6px;
-    padding: 3rem;
+    padding: 4rem;
     text-align: center;
   }
   .connect-subtxt {
@@ -265,7 +268,6 @@
     line-height: 45px;
     letter-spacing: -2px;
     padding: 1rem;
-    margin-top: 8rem;
   }
 
   .rachel {
@@ -281,11 +283,16 @@
     margin-top: -4.8rem;
   }
   .rachel:hover,
-  .li-ul:hover {
+  .li-ul:hover,
+  #li-link:hover {
     color: #1f1e1e;
     text-shadow: rgba(0, 0, 0, 0.19) 0px 6px 10px,
       rgba(0, 0, 0, 0.23) 0px 3px 3px;
     cursor: pointer;
+  }
+
+  #li-link {
+    color: white;
   }
 }
 
