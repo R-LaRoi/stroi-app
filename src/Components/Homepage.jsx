@@ -30,14 +30,15 @@ return(
      <div className='r-sub-title'>  Let's connect and explore how we can build together.</div> 
       <ul className='hp-ul'>
         <li className='li-ul'> 
-        <a href=""></a>
-        github
+        <a href="https://github.com/R-LaRoi" target='blank_' id='li-link'>
+        github</a>
         </li>
-      <li className='li-ul'>link
+      <li className='li-ul'>
+        <a href='https://www.linkedin.com/in/rachel-stroy-978397277/' target='blank_' id='li-link'>linkedin</a>
       
       </li>
-      <li className='li-ul'>art
-      
+      <li className='li-ul'>
+        <a href='https://www.rachelstroy.com/' target='blank_' id='li-link'> art</a>
       </li></ul>
     </div>
     
