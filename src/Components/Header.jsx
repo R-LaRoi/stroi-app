@@ -8,14 +8,14 @@ import Navbar from './Navbar'
 //     }; 
   
 //     function scrollFunction() {
-//         if (document.body.scrollTop > 410 || 
+//         if (document.body.scrollTop > 400 || 
 //             document.documentElement.scrollTop > 410) 
-//         { document.getElementById("hero-vid") 
+//         { document.getElementById("nav-items") 
 //                         .style.display = "none"; 
 //             document.getElementById("showNav").style.display = "block"; 
          
 //         } else {
-//  document.getElementById("hero-vid").style.display = "block"; 
+//  document.getElementById("nav-items").style.display = "block"; 
 //   document.getElementById("showNav").style.display = "none"; 
 
 //         }
@@ -35,19 +35,17 @@ export default function Header() {
       </video>
 
 
-          <div className='showNav' id="showNav">
-<Navbar />
-</div>
-
 <video playsInline autoPlay muted loop className ='mobile-vid' id="at-vid">
         <source
           src={stmobile}
           type="video/mp4"
         />
       </video>
-      
-          
-      </div>
+        </div>
+                    <div className='showNav' id="showNav">
+<Navbar />
+</div>
+    
 
      </>
   )

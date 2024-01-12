@@ -2,7 +2,7 @@ import React from 'react'
 import './stylesheets/hpg.css'
 import './stylesheets/prolink.css'
 import data from './Data'
-
+import { NavLink } from "react-router-dom";
 export default function HpgProjects() {
 
 let projectCards = data.map( (project, index) => {
@@ -46,6 +46,10 @@ return(
 <section className='hpg-project-sec'>
 
 <div> {projectCards}</div>
+<button className='pro-btn-link'>
+  < NavLink to="/projects" className="pro-btn-lnk">  view all</NavLink>
+
+  </button>
 </section>
 
 )
