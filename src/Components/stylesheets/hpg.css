@@ -1,6 +1,18 @@
 #dsk-vid {
   width: 100%;
 }
+
+#btn-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.r-sub-title {
+  line-height: 30px;
+  font-size: 1.7rem;
+  font-family: "Visby-reg";
+}
+
 .ate-h1 {
   position: absolute;
   width: 70%;
@@ -100,10 +112,8 @@
 .rachel {
   background-color: #d72638;
   color: #ffffff;
-  /* font-size: 9.5rem; */
   width: fit-content;
   text-shadow: rgba(0, 0, 0, 0.19) 0px 6px 10px, rgba(0, 0, 0, 0.23) 0px 3px 3px;
-  /* text-decoration: underline solid 20px #d72638; */
 }
 
 .hp-ul {
@@ -111,6 +121,11 @@
   list-style: none;
   display: flex;
   gap: 10px;
+}
+
+.li-ul:hover {
+  color: #d72638;
+  text-shadow: rgba(0, 0, 0, 0.19) 0px 6px 10px, rgba(0, 0, 0, 0.23) 0px 3px 3px;
 }
 
 .mobile-vid {
@@ -171,26 +186,29 @@
   }
 
   .hp-ul {
-    padding-top: 30px;
+    padding-top: 19px;
     list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 1px;
+    margin-left: -20px;
   }
 
   .dev-profile {
+    grid-template-columns: 1fr;
     padding-top: 2rem;
     margin-top: -2rem;
-    background-color: #1e1e1e;
+    background-color: #d72638;
     height: 100vh;
     color: white;
     font-family: "Visby-Reg";
     padding-left: 3rem;
+    text-align: center;
   }
 
   .rachel {
     font-size: 5rem;
-    width: fit-content;
+    margin-left: 60px;
   }
 
   .dev-title {
@@ -232,7 +250,8 @@
     font-size: 2.5rem;
     line-height: 45px;
     letter-spacing: -2px;
-    padding-left: 0;
+    padding: 1rem;
+    margin-top: 8rem;
   }
 
   .rachel {
@@ -246,6 +265,12 @@
 
   #tsc-vid {
     margin-top: -4.8rem;
+  }
+  .rachel:hover,
+  .li-ul:hover {
+    color: #1f1e1e;
+    text-shadow: rgba(0, 0, 0, 0.19) 0px 6px 10px,
+      rgba(0, 0, 0, 0.23) 0px 3px 3px;
   }
 }
 

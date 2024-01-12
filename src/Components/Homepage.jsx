@@ -62,12 +62,22 @@ className ='mobile-vid' id="at-vid">
     <div className='dev-title'>
       <img className="logob circle" src={circle} alt="" width={120}/>
     <div>meet</div>
-       <div className='rachel'> Rachel.</div>
-     <small className='connect-subtxt'> Let's connect and explore how we can build together.</small>
+      <div className='rachel'> Rachel.</div>
+     <div className='r-sub-title'>  Let's connect and explore how we can build together.</div> 
+     {/* <small className='connect-subtxt'> </small> */}
       <ul className='hp-ul'>
-        <li>github</li>
-      <li>link</li>
-      <li>art</li></ul>
+        <li className='li-ul'> 
+        <a href=""></a>
+        github
+        
+        
+        </li>
+      <li className='li-ul'>link
+      
+      </li>
+      <li className='li-ul'>art
+      
+      </li></ul>
     </div>
     
   </div>
@@ -77,8 +87,11 @@ className ='mobile-vid' id="at-vid">
 
   <div class="row g-3">
 
-    <div className='dev-title'>Say hi! </div>
+    <div className='dev-title'>
+          <small className=''> Say hi! </small>
+      </div>
   <div class="col">
+
     <input type="text" class="form-control" placeholder="Name" aria-label="First name"/>
   </div>
   <div class="col">

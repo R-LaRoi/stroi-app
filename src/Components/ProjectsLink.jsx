@@ -21,7 +21,13 @@ return(
     <li className='li-sub-title'>
     {procards.text}
   </li>
-  <button className='pro-btn'>view</button>
+  <button className='pro-btn'>
+    <a href={procards.link} target="blank_" id='btn-link'>
+  view
+    </a>
+  
+    
+    </button>
   </ul>
 <div>
     <video playsInline autoPlay muted loop id="pro-vid" >
