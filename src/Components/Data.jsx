@@ -18,7 +18,7 @@ const projectData = [
     title: 'Def Pressé',
   text:'London based record Label run by people primarily concerned with music. ',
 git:'https://github.com/chingu-voyages/v45-tier3-team-43/tree/main',
-link:''
+link:'https://fbc2f3-2.myshopify.com'
   },
    {
    id:4, 
@@ -73,15 +73,7 @@ link:'https://whatsthemoveapp.netlify.app/'
 
   },
 
-  {
-    id:4, 
-      video: vista,
-    // image:
-    title: 'Vista',
-  text:'Create an e-commerce store using Vista. ',
-git:'https://github.com/chingu-voyages/v45-tier3-team-43/tree/main',
-link:'https://fashionvista.vercel.app/'
-  }
+
 ,{
     id:4, 
     video:bear,
