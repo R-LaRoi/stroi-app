@@ -50,7 +50,7 @@ link:'https://fashionvista.vercel.app/'
     title: 'Win & Juice',
   text:'Juice Mobile App',
 git:'https://github.com/R-LaRoi/Flavor-App',
-// link:'https://flavors-babka-f5ce18.netlify.app/'
+link:'https://win-and-juice.netlify.app/'
 
   },
 
@@ -60,8 +60,9 @@ git:'https://github.com/R-LaRoi/Flavor-App',
     title: 'TS Consultancy',
   text: 'Private consultancy webpage for early childhood counseling and therapy. ' 
 ,
-link:'https://tsc-consultancy-aus.netlify.app/'
+link:'https://truptisamuelconsultancy.au'
   },
+
    { 
     id:3,
   video: jmp,
