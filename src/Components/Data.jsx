@@ -4,7 +4,7 @@ import tsc from "./assets/tsc.mp4";
 import vista from "./assets/vista.mp4";
 import defpresse from './assets/defpromovid2.mp4'
 import stl from "./assets/stl.mp4";
-import sundae from "./assets/sundae.mp4";
+import juice from "./assets/winJuice.mp4";
 import atc from "./assets/atclip5.mp4";
 import book from "./assets/book.mp4";
 import bear from "./assets/brnbear.mp4";
@@ -46,9 +46,9 @@ link:'https://fashionvista.vercel.app/'
 
     {
     id:6, 
-    video: sundae,
-    title: 'Sundae',
-  text:'Ice Cream Ordering App',
+    video: juice,
+    title: 'Win & Juice',
+  text:'Juice Mobile App',
 git:'https://github.com/R-LaRoi/Flavor-App',
 // link:'https://flavors-babka-f5ce18.netlify.app/'
 
